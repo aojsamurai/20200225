@@ -1,0 +1,78 @@
+html, body{
+	margin: 0; padding: 0; border: 0;
+}
+header{
+	background: #000;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	max-width: 40px;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+}
+.menuItem{
+	margin:5px 10px;
+	background: #ffcc00;
+	padding:10px;
+}
+.box{
+	display: flex;
+	justify-content: space-between;
+}
+.content{
+	background: #3c3c3c;
+	width: 70%;
+	color: white;
+
+}
+.comment{
+	display: flex;
+	flex-direction: row;
+	border: 2px solid blue;
+	margin: 5px;
+}
+.reversed{
+	display: flex;
+	flex-direction: row-reverse;
+	border: 2px solid blue;
+	text-align: right;
+}
+.profile{
+	max-width: 60px;
+}
+.text{
+	padding: 10px 20px;
+}
+.name{
+
+}
+.subname{
+
+}
+aside{
+	background: #666;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sidebarText{
+	background: #fff;
+	color: red;
+	padding: 20px;
+	text-align: center;
+}
+footer{
+	background: #000;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.subMenuFooter{
+	background: #c6c6c6;
+	padding: 10px;
+}
